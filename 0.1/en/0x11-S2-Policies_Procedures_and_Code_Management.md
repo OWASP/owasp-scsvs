@@ -3,8 +3,6 @@
 ## Control Objective
 Ensure that development policies and procedures are in place to promote secure coding practices, thorough code reviews, and comprehensive testing. The aim is to prevent vulnerabilities and enhance the maintainability and clarity of smart contract code.
 
----
-
 ## S2.1 Development Policies
 
 ### Control Objective
@@ -26,8 +24,6 @@ Establish and enforce secure coding standards and review processes to minimize v
 | S2.1.B3      | Check that the code review process for smart contracts includes a thorough analysis for vulnerabilities such as reentrancy attacks, integer overflows, and improper access control. |    | ✓  | ✓  |     |
 | S2.1.B4      | Verify that code reviews include adherence to smart contract development standards, such as the use of safe math libraries and secure design patterns. |    | ✓  | ✓  |     |
 | S2.1.B5      | Ensure that code reviews incorporate a checklist of common smart contract vulnerabilities, and that each item on the list is addressed before code is approved. |    | ✓  | ✓  |     |
-
----
 
 ## S2.2 Code Clarity
 
@@ -53,7 +49,6 @@ Promote code clarity and maintainability through thorough documentation, logical
 | S2.2.B4      | Ensure that the linting and formatting configurations are reviewed and updated regularly to reflect new best practices and emerging issues in smart contract development. |    | ✓  | ✓  |     |
 | S2.2.B5      | Verify that the linting and formatting tools are compatible with the development environment and do not introduce unintended changes to the smart contract code. |    | ✓  | ✓  |     |
 
----
 
 ## S2.3 Test Coverage
 

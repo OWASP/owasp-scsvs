@@ -3,7 +3,6 @@
 ## Control Objective
 Establish secure interaction protocols for smart contracts to ensure safe communication between contracts, external oracles, and cross-chain integrations. This includes managing contract interactions, securing oracle integrations, handling cross-chain interactions, and ensuring the security of bridges.
 
----
 
 ## S5.1 Contract Interactions
 
@@ -30,7 +29,6 @@ Ensure that all interactions between contracts are secure, minimizing risks asso
 | S5.1.B4      | Verify that the contract handles failures or unexpected behaviors from external interactions gracefully to avoid cascading failures. |    | ✓  | ✓  |     |
 | S5.1.B5      | Ensure that interactions with other contracts are monitored and audited to detect and address any unusual or unauthorized activities. |    | ✓  | ✓  |     |
 
----
 
 ## S5.2 Oracle Integrations
 
@@ -57,7 +55,6 @@ Ensure that oracle integrations provide secure, reliable, and tamper-proof data 
 | S5.2.B4      | Verify that the smart contract includes checks to prevent manipulation or collusion among decentralized oracles. |    | ✓  | ✓  |     |
 | S5.2.B5      | Ensure that the decentralized oracle integration adheres to standards for security and reliability in multi-oracle environments. |    | ✓  | ✓  |     |
 
----
 
 ## S5.3 Cross-Chain Interactions
 
@@ -81,8 +78,6 @@ Ensure secure handling of external calls and atomic swaps during cross-chain int
 | S5.3.B2      | Ensure that the smart contract includes checks to validate the atomic swap conditions and prevent partial or fraudulent swaps. |    | ✓  | ✓  |     |
 | S5.3.B3      | Check that the smart contract handles potential failures or disputes in atomic swaps securely and fairly. |    | ✓  | ✓  |     |
 | S5.3.B4      | Verify that the atomic swap functionality is tested thoroughly to cover various scenarios and edge cases. |    | ✓  | ✓  |     |
-
----
 
 ## S5.4 Bridges
 

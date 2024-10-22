@@ -3,8 +3,6 @@
 ## Control Objective
 Establish practices for optimizing gas usage and efficiency in smart contracts to minimize costs and enhance performance.
 
----
-
 ## S10.1 Optimizing Gas Usage
 
 ### Control Objective
@@ -22,7 +20,6 @@ Ensure gas consumption is minimized to promote cost-effective execution of smart
 | ------------ | --------------------------------------------------------------------------- | -- | -- | -- | --- |
 | S10.1.B1     | Verify that transaction confirmation numbers are chosen appropriately to mitigate risks related to chain re-orgs and ensure reliable contract operation. |    | ✓  | ✓  |     |
 
----
 
 ## S10.2 Efficient Contract Design
 

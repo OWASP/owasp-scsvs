@@ -3,8 +3,6 @@
 ## Control Objective
 Establish secure cryptographic practices for managing keys, verifying signatures, and generating random numbers to protect the integrity and authenticity of transactions and data within smart contracts.
 
----
-
 ## S6.1 Key Management
 
 ### Control Objective
@@ -28,7 +26,6 @@ Ensure secure handling and storage of private keys and implement robust signatur
 | S6.1.B2      | Ensure that the multi-signature wallet logic is resistant to replay attacks. |    | ✓  | ✓  |     |
 | S6.1.B3      | Verify that the process of adding or removing signatories from the multi-signature wallet is secure and controlled. |    | ✓  | ✓  |     |
 
----
 
 ## S6.2 Signature Verification
 
@@ -46,8 +43,6 @@ Implement cryptographic techniques that ensure the secure verification of signat
 | Ref          | Requirement                                                                 | L1 | L2 | L3 | SWE |
 | ------------ | --------------------------------------------------------------------------- | -- | -- | -- | --- |
 | S6.2.B1      | Verify that ECDSA signature handling functions, such as ECDSA.recover and ECDSA.tryRecover, properly manage signature formats to prevent signature malleability, especially when handling both traditional 65-byte and EIP-2098 compact signatures. |    | ✓  | ✓  |     |
-
----
 
 ## S6.3 Secure Random Number Generation
 
