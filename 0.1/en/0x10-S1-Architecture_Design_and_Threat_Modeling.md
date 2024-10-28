@@ -4,7 +4,9 @@
 
 ### Control Objective
 Ensure that smart contracts are designed with modularity, upgradability, and separation of concerns to enable secure operations, upgrades, and maintenance. Contracts should be designed to minimize security risks related to complex upgrades, privilege transfers, and mismanagement of dependencies.
+
 ### Security Verification Requirements
+
 ### S1.1.A Modularity and Upgradability
 
 | Ref          | Requirement                                                                 | L1 | L2 | L3 | SWE |

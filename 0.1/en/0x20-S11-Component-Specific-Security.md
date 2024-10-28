@@ -3,8 +3,6 @@
 ## Control Objective
 Establish security practices and standards for various blockchain components to mitigate specific vulnerabilities associated with tokens, NFTs, vaults, and liquidity pools.
 
----
-
 ## S11.1 Tokens (ERC20, ERC721, ERC1155)
 
 ### Control Objective
@@ -21,7 +19,6 @@ Ensure secure implementation and management of token standards to prevent vulner
 | S11.1.A5     | Some tokens revert on the transfer of a zero amount, which can cause issues in certain integrations and operations. Ensure compatibility with such tokens to avoid integration problems. |    | ✓  | ✓  |     |
 | S11.1.A6     | Not all ERC20 tokens comply with the EIP20 standard; some may not return a boolean flag or revert on failure. Verify compliance with the ERC20 standard to avoid compatibility issues. |    | ✓  | ✓  |     |
 
----
 
 ## S11.2 NFT Security
 
@@ -36,7 +33,6 @@ Implement best practices for non-fungible tokens to safeguard against vulnerabil
 | S11.2.A2     | Ensure proper metadata integrity and prevent unauthorized minting or transfers. |    | ✓  | ✓  |     |
 | S11.2.A3     | Safeguard against potential exploits related to royalty payments or token burns. |    | ✓  | ✓  |     |
 
----
 
 ## S11.3 Vaults
 
@@ -50,7 +46,6 @@ Ensure secure asset storage and management within vault systems.
 | S11.3.A1     | Address potential overhead issues associated with withdrawing stETH or wstETH, including queue times and withdrawal limits, to ensure smooth operations. |    | ✓  | ✓  |     |
 | S11.3.A2     | Handle conversions between stETH and wstETH carefully to avoid potential issues due to the rebasing nature of stETH. |    | ✓  | ✓  |     |
 
----
 
 ## S11.4 Liquid Staking
 
@@ -64,7 +59,6 @@ Ensure secure staking mechanisms to protect users' assets.
 | S11.4.A1     | Verify that mechanisms for detaching sfrxETH from frxETH are robust to prevent discrepancies and ensure accurate reward transfers, particularly when controlled by centralized entities. |    | ✓  | ✓  |     |
 | S11.4.A2     | Monitor potential future changes in the sfrxETH/ETH rate and ensure users are adequately forewarned to mitigate risks associated with rate fluctuations. |    | ✓  | ✓  |     |
 
----
 
 ## S11.5 Liquidity Pools (AMMs)
 
@@ -77,7 +71,7 @@ Establish security measures in automated market makers.
 | ------------ | --------------------------------------------------------------------------- | -- | -- | -- | --- |
 | S11.5.A1     | [WIP/Will be removed]                                                     |    |    |    |     |
 
----
+
 
 ## S11.6 Uniswap V4 Hook
 

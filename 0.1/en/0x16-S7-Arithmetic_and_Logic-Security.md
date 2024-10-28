@@ -3,7 +3,6 @@
 ## Control Objective
 Establish secure arithmetic and logic practices to prevent vulnerabilities such as overflow/underflow and ensure the integrity of calculations within smart contracts.
 
----
 
 ## S7.1 Preventing Overflow/Underflow
 
@@ -29,7 +28,6 @@ Implement safe arithmetic practices to prevent overflow and underflow vulnerabil
 | ------------ | --------------------------------------------------------------------------- | -- | -- | -- | --- |
 | S7.1.B1      | Verify that fixed-point arithmetic operations are performed safely to prevent overflow, underflow, and precision loss. |    | ✓  | ✓  |     |
 
----
 
 ## S7.2 Arithmetic Integrity
 
