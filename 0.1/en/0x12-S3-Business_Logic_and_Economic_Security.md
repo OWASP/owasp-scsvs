@@ -3,7 +3,6 @@
 ## Control Objective
 Ensure that the smart contract's business logic and economic security are resilient against threats related to incentive structures, tokenomics, and logic vulnerabilities. Contracts should prevent abuse, misbehavior, or unexpected behaviors by implementing secure economic models, token handling, and transaction integrity.
 
----
 
 ## S3.1 Economic Models
 
@@ -19,7 +18,6 @@ Ensure that economic models, including incentive structures and tokenomics, are 
 | S3.1.A3      | Validators on the Ethereum 2.0 Beacon Chain can be penalized or slashed for misbehavior, which can affect the value of rETH. Ensure that these dynamics are considered in value assessments and interactions. |    | ✓  | ✓  |     |
 | S3.1.A4      | The conversion rate between ETH and rETH might change over time based on the rewards accrued from staking. Ensure that these fluctuations are properly managed and captured. |    | ✓  | ✓  |     |
 
----
 
 ## S3.2 Tokenomics
 
@@ -36,7 +34,6 @@ Ensure that tokens used within the smart contract ecosystem are securely impleme
 | S3.2.A4      | Verify that tokens do not have vulnerabilities such as incorrect fee application or unexpected behavior due to token transfer issues. |    | ✓  | ✓  |     |
 | S3.2.A5      | Verify that all claimable addresses are included in the hashing process for Merkle tree leaves to prevent attackers from claiming funds they should not. |    | ✓  | ✓  |     |
 
----
 
 ## S3.3 Preventing Reentrancy and Logic Flaws
 

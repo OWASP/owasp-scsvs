@@ -3,8 +3,6 @@
 ## Control Objective
 Establish robust access control and authentication mechanisms to ensure that only authorized entities can perform sensitive operations within the smart contract. This includes implementing role-based access control (RBAC), secure authorization mechanisms, and decentralized identity management.
 
----
-
 ## S4.1 Role-Based Access Control (RBAC)
 
 ### Control Objective
@@ -32,7 +30,6 @@ Implement role-based access control to manage permissions and ensure that only a
 | S4.1.C3      | Ensure that Guard’s hooks (e.g., checkTransaction(), checkAfterExecution()) are executed to enforce critical security checks. |    | ✓  | ✓  |     |
 | S4.1.C4      | Ensure that access controls are implemented correctly to determine who can use certain functions, and avoid unauthorized changes or withdrawals. |    | ✓  | ✓  |     |
 
----
 
 ## S4.2 Authorization Mechanisms
 
@@ -54,7 +51,6 @@ Implement secure authorization mechanisms to safeguard critical functions and se
 | S4.2.B2      | Use whitelisting to restrict interactions to a specific set of addresses, providing additional security against malicious actors. |    | ✓  | ✓  |     |
 | S4.2.B3      | Ensure that functions modifying the contract state or accessing sensitive operations have proper access controls implemented. |    | ✓  | ✓  |     |
 
----
 
 ## S4.3 Decentralized Identity
 
