@@ -2,7 +2,7 @@
 
 <img src="./assets/images/scsvs-banner.png" width="700px">
 
-[![OWASP Incubator](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://owasp.org/www-project-smart-contract-security-verification-standard)
+[![OWASP Incubator](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://owasp.org/owasp-scsvs)
 [![Creative Commons License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-orange.svg)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 
 ## Introduction
@@ -11,15 +11,15 @@ The primary aim of the OWASP Smart Contract Security Verification Standard (SCSV
 
 The standard offers guidelines that address the specific security risks and concerns related to smart contracts, decentralized applications (dApps), and EVM-based blockchain systems, focusing on the core principles of security in smart contract development.
 
-We gratefully recognize the organization that have supported the project either through significant time provision or financially on our "[Supporter](https://github.com/OWASP/www-project-smart-contract-security-verification-standard/blob/main/SUPPORTERS.md)" page!
+We gratefully recognize the organization that have supported the project either through significant time provision or financially on our "[Supporter](https://github.com/OWASP/owasp-scsvs/blob/main/SUPPORTERS.md)" page!
 
-**Please [log issues](https://github.com/OWASP/www-project-smart-contract-security-verification-standard/issues) if you find any bugs or if you have ideas. We may subsequently ask you to [open a pull request](https://github.com/OWASP/www-project-smart-contract-security-verification-standard/pulls) based on the discussion in the issue.**
+**Please [log issues](https://github.com/OWASP/owasp-scsvs/issues) if you find any bugs or if you have ideas. We may subsequently ask you to [open a pull request](https://github.com/OWASP/owasp-scsvs/pulls) based on the discussion in the issue.**
 
 ## Initial Draft Version - 0.0.1
 
 The latest stable version is version 0.0.1 (dated September 2024), which can be found:
 
-* [OWASP Smart Contract Security Verification Standard 0.0.1 English (PDF)](https://github.com/OWASP/www-project-smart-contract-security-verification-standard/releases/download/v0.0.1/OWASP_Smart_Contract_Security_Verification_Standard-0.0.1_en.pdf)
+* [OWASP Smart Contract Security Verification Standard 0.0.1 English (PDF)](https://github.com/OWASP/owasp-scsvs/releases/download/v0.0.1/OWASP_Smart_Contract_Security_Verification_Standard-0.0.1_en.pdf)
 
 The master branch of this repository will always be the "bleeding edge version," which may have in-progress changes or other edits open.
 
