@@ -14,15 +14,15 @@
 
 ### Downloads or Social Links
 
-* [Download](https://github.com/OWASP/www-project-smart-contract-security-verification-standard/releases/tag/v0.0.1)
+* [Download](https://github.com/OWASP/owasp-scsvs/releases/tag/v0.0.1)
 * [Join OWASP Group Slack](https://owasp.org/slack/invite)
-* [Join #project-smart-contract-security-verfication-standards Channel](https://owasp.slack.com/archives/C07MNDE6TPZ)
+* [Join #owasp-scs](https://owasp.slack.com/archives/C07MNDE6TPZ)
 
 
 ### Code Repository
 
-* [Repo](https://github.com/OWASP/www-project-smart-contract-security-verification-standard)
+* [Repo](https://github.com/OWASP/owasp-scsvs)
 
 ### Change Log
 
-* [Changes](https://github.com/OWASP/www-project-smart-contract-security-verification-standard/releases/tag/v0.0.1)
+* [Changes](https://github.com/OWASP/owasp-scsvs/releases/tag/v0.0.1)
